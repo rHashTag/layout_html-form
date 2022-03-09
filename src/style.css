@@ -1,21 +1,16 @@
 /* styles go here */
-.form-field {
+.label {
   display: block;
-  margin-top: 10px;
 }
 
-.field {
-  margin-top: 10px;
-}
-
-.first {
-  margin-top: 0;
-}
-
-.radios {
+.radio {
   display: inline;
 }
 
 .group {
   margin-bottom: 20px;
+}
+
+.label:not(:last-child) {
+  margin-bottom: 10px;
 }
