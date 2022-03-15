@@ -9,7 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>HTML Form</title>
     <link rel="stylesheet" href="./style.css">
-    
+
   </head>
   <body>
     <form
@@ -18,7 +18,7 @@
     >
       <fieldset class="group">
         <legend>Personal information</legend>
-        <label class="label" for="Surname">
+        <label for="Surname">
           Surname:
           <input
             class="input"
@@ -28,7 +28,7 @@
             id="Surname"
           >
         </label>
-        <label class="label" for="Name">
+        <label for="Name">
           Name:
           <input
             class="input"
@@ -39,7 +39,7 @@
           >
         </label>
         </label>
-        <label class="label" for="age">
+        <label for="age">
           How old are You?
           <input
             class="input"
@@ -50,7 +50,7 @@
             id="age"
           >
         </label>
-        <label class="label" for="date">
+        <label for="date">
           Full date of birth:
           <input
             class="input"
@@ -58,7 +58,7 @@
             id="date"
           >
         </label>
-        <label class="label" for="term">
+        <label for="term">
           I accept the term of the agreement
           <input
             class="input radio"
@@ -70,7 +70,7 @@
       </fieldset>
       <fieldset class="group">
         <legend>Registration</legend>
-        <label class="label" for="email">
+        <label for="email">
           E-mail:
           <input
             class="input"
@@ -79,7 +79,7 @@
             id="email"
           >
         </label>
-        <label class="label" for="password">
+        <label for="password">
           Password:
           <input
             class="input"
@@ -90,7 +90,7 @@
       </fieldset>
       <fieldset class="group">
         <legend>An interesting fact about you!</legend>
-        <label class="label" for="love-cats">
+        <label for="love-cats">
           Do you love cats?
           <input
             class="input radio"
@@ -107,7 +107,7 @@
           >
           No
         </label>
-        <label class="label" for="color">
+        <label for="color">
           What is your favorite color?
           <input
             type="color"
@@ -115,27 +115,28 @@
             id="color"
           >
         </label>
-        <label class="label" for="time">
+        <label for="time">
           What time do you go to bed?
           <input
             type="time"
             name="time"
             id="time"
+            step="1"
           >
         </label>
-        <label class="label" for="car-brands">
+        <label for="car-brands">
           What are your favorite brand of cars?
           <select
             name="car-brands"
             multiple
             id="car-brands"
           >
-            <option value="BMW">BMW</option>
-            <option value="Audi">Audi</option>
-            <option value="Lada">Lada</option>
+            <option value="bmw">BMW</option>
+            <option value="audi">Audi</option>
+            <option value="lada">Lada</option>
           </select>
         </label>
-        <label class="label" for="rating">
+        <label for="rating">
           How do you rate our work?
           <input
             type="range"
@@ -147,10 +148,10 @@
       </fieldset>
       <fieldset class="group">
         <legend>Additional info</legend>
-        <label class="label" for="comments">
+        <label for="comments">
           Comments:
           <textarea
-            class="input radio"
+            class="input"
             name="comments"
             minlength="10"
             maxlength="300"
@@ -158,7 +159,7 @@
             id="comments"
           ></textarea>
         </label>
-        <label class="label" for="recommend-us">
+        <label for="recommend-us">
           Would you recommend us?
           <select
             class="input"
